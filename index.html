@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prodigy Weather - Task 04</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?fsamily=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-overlay"></div>
+    <div class="container">
+        <h1 class="main-title">WEATHER</h1>
+        
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="Enter City Name...">
+            <button id="searchBtn">SEARCH</button>
+        </div>
+
+        <div class="weather-card" id="weatherInfo">
+            <h2 id="cityName">Enter a City</h2>
+            <img src="" id="weatherIcon" alt="">
+            <div class="temp-box">
+                <span id="temp">--</span>°C
+            </div>
+            <p id="description">Check the weather today</p>
+            <div class="details">
+                <div class="col">
+                    <p>Humidity</p>
+                    <p id="humidity">--%</p>
+                </div>
+                <div class="col">
+                    <p>Wind Speed</p>
+                    <p id="wind">-- km/h</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
